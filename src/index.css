@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-primary {
+    background-color: rgb(85, 71, 233);
+}
+
+.mob-nav {
+    @apply fixed top-16 w-full left-0;
+    background-color: #eaa040;
+    top: 80px;
+    height: 190px;
+}
+
+.wid {
+    width: 270px;
+}
+
+.hero-text {
+    font-family: "Madimi One", sans-serif;
+}
+
+.p-text {
+    font-family: "Poppins", sans-serif;
+    color: white;
+} 
+
+a{
+    padding: 10px;
+    text-align: center;
+     font-family: "Ojuju", sans-serif;
+}
+
+
+.bg-secondary {
+    background-color: rgb(85, 81, 227);
+}
+
+.bg-tirtary {
+    background-color: rgb(44, 42, 116);
+}
+
+
+.wid2 {
+    width: 250px;
+}
+
+.wid3 {
+    width: 240px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
